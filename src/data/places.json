@@ -1,0 +1,73 @@
+{
+    "places":[
+        {
+            "nationality":"nepali",
+            "religion":"hindu",
+            "interest":[
+                "boating","paraglyding","bunjee jumping", "sky diving"
+            ],
+            "transport":[
+                "bus","hot air balloon","helicopter","jetplane"
+            ],
+            "recommended_places":[
+                "Pathibhara Temple",
+                "Dolakha Bhimsen ",
+                "Dakshinkali Temple ",
+                "Jaleshwar Mahadev",
+                "Manakamana",
+                "Barahachhetra",
+                "Budhanilkantha"
+            ]
+        },
+        {
+            "nationality":"nepali",
+            "religion":"bhudhism",
+            "interest":[
+                "boating","paraglyding","bunjee jumping", "sky diving"
+            ],
+            "transport":[
+                "bus","hot air balloon","helicopter","jetplane"
+            ],
+            "recommended_places":[
+                "Boudhanath Stupa",
+                "Muktinath  ",
+                "Devghat ",
+                "Baglung Kalika Temple",
+                "Gosaikunda",
+                "Pashupatinath Temple ",
+                "Budhanilkantha"
+            ]
+        },
+        {
+            "nationality":"other",
+            "religion":"christian",
+            "interest":[
+                "boating","paraglyding","bunjee jumping", "sky diving"
+            ],
+            "transport":[
+                "bus","hot air balloon","helicopter","jetplane"
+            ],
+            "recommended_places":[
+                "RARA Lake",
+                "Phewa lake",
+                "Gosaikund lake"
+            ]
+        },
+        {
+            "nationality":"other",
+            "religion":"bhudhism",
+            "interest":[
+                "boating","paraglyding","bunjee jumping", "sky diving"
+            ],
+            "transport":[
+                "bus","hot air balloon","helicopter","jetplane"
+            ],
+            "recommended_places":[
+                "Sarangkot",
+                "Bandipur",
+                "Phulchowki",
+                "Kot Danda"
+            ]
+        }
+    ]
+}
