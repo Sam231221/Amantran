@@ -1,0 +1,1 @@
+python -Xutf8 manage.py dumpdata EHub --format json --indent 4 --exclude admin.LogEntry --exclude sessions --exclude auth.permission --exclude contenttypes > EHub.json

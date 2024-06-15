@@ -1,0 +1,750 @@
+[
+  {
+    "model": "EHub.user",
+    "pk": 1,
+    "fields": {
+      "username": "Lokesh Maharjan",
+      "email": "lokesh123@gmaill.com",
+      "password": "lokesh123",
+      "preferred_transportation": "BUS",
+      "interested_in": "TRA",
+      "religion": "BUD",
+      "created_at": "2023-06-30T15:18:56.760Z",
+      "updated_at": "2023-06-30T15:18:56.760Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 1,
+    "fields": {
+      "name": "Pokhara",
+      "img_url": "https://th.bing.com/th/id/OIP.yPfWWUt-iPeMo66LO5UCiAHaEz?pid=ImgDet&rs=1",
+      "province": "Gandaki Province",
+      "district": "Kaski",
+      "description": "asdasd",
+      "created_at": "2023-06-30T12:33:12.079Z",
+      "updated_at": "2023-06-30T20:03:39.434Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 2,
+    "fields": {
+      "name": "Kathmandu",
+      "img_url": "https://www.welcomepickups.com/wp-content/uploads/2022/09/Kathmandu-Nepal.jpeg",
+      "province": "Bagmati Province",
+      "district": "Kathmandu",
+      "description": "Kathmandu, the capital city of Nepal, is nestled in the heart of the Himalayas. It is a vibrant and culturally rich city, known for its ancient temples, palaces, and bustling markets. The city offers a blend of traditional and modern lifestyles, with a vibrant arts and music scene.",
+      "created_at": "2023-06-30T12:59:37.522Z",
+      "updated_at": "2023-06-30T20:03:31.044Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 3,
+    "fields": {
+      "name": "Kushma",
+      "img_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/85/99/fa/kushma.jpg?w=700&h=-1&s=1",
+      "province": "Gandaki Province",
+      "district": "parbat",
+      "description": "A tranquil destination surrounded by natural beauty. Famous for its iconic Kushma Bungee Jump, one of the highest in the world. Offers a blend of adventure, cultural exploration, and scenic marvels.",
+      "created_at": "2023-06-30T13:13:19.463Z",
+      "updated_at": "2023-06-30T20:03:21.750Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 4,
+    "fields": {
+      "name": "Gorkha",
+      "img_url": "https://aasraecotreks.com.np/wp-content/uploads/2018/09/Gorkha-Nepal.png",
+      "province": "Gandaki Province",
+      "district": "Gorkha",
+      "description": "A historic town nestled in the hills of Nepal. Renowned for its ancient Gorkha Durbar, a fortified palace that once served as the seat of power for the Shah dynasty. Captivating visitors with its rich cultural heritage, breathtaking mountain vistas, and a gateway to the Manaslu trek.",
+      "created_at": "2023-06-30T13:15:27.944Z",
+      "updated_at": "2023-06-30T20:03:13.130Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 5,
+    "fields": {
+      "name": "Ghandruk",
+      "img_url": "https://cdn.getyourguide.com/img/tour/5df890d32d03b.jpeg/145.jpg",
+      "province": "Gandaki",
+      "district": "Kaski",
+      "description": "A charming village located in the Annapurna region of Nepal. Nestled amidst lush green hills and terraced fields, it offers breathtaking views of the majestic Annapurna and Machhapuchhre mountains. Known for its traditional Gurung culture, visitors can immerse themselves in the warm hospitality, vibrant festivals, and authentic Gurung cuisine. Ghandruk also serves as a popular base for trekkers, with various trails leading to Annapurna Base Camp and other scenic destinations, making it a haven for nature lovers and adventure enthusiasts alike.",
+      "created_at": "2023-06-30T13:24:26.173Z",
+      "updated_at": "2023-06-30T13:24:26.173Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 6,
+    "fields": {
+      "name": "Bandipur",
+      "img_url": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_581446066_20190822130343_20190822154318.jpg",
+      "province": "Gandaki Province",
+      "district": "Tanahun",
+      "description": "A hidden gem nestled in the hills of Nepal, renowned for its well-preserved Newari architecture and rich cultural heritage. This quaint hilltop town offers a glimpse into the country's past, with its beautifully restored buildings, intricate woodwork, and narrow cobblestone streets. The panoramic views of the Himalayas from Bandipur are simply awe-inspiring, providing a serene and tranquil escape. Visitors can explore the surrounding nature trails, indulge in local delicacies, and immerse themselves in the warm hospitality of the friendly locals. Bandipur is a perfect blend of history, natural beauty, and cultural charm, making it a must-visit destination for those seeking an off-the-beaten-path experience in Nepal.",
+      "created_at": "2023-06-30T13:27:41.712Z",
+      "updated_at": "2023-06-30T20:02:57.309Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 7,
+    "fields": {
+      "name": "Syangja",
+      "img_url": "https://booking-manager-api-hop-nepal.s3.eu-west-1.amazonaws.com/file-manager/page/image-sirubari-village-syangja.jpg",
+      "province": "Gandaki Province",
+      "district": "Syangja",
+      "description": "A picturesque district in central Nepal, blessed with natural beauty and cultural significance. Surrounded by rolling hills, terraced fields, and glistening rivers, Syangja offers a serene retreat for nature enthusiasts. The district is home to the historic town of Bhirkot, known for its ancient temples and palaces that reflect the rich cultural heritage of the region. Syangja is also famous for its vibrant festivals, where locals showcase their traditional music, dance, and religious rituals. With its breathtaking landscapes, warm hospitality, and a glimpse into rural Nepali life, Syangja is a hidden gem that captures the essence of Nepal's beauty and cultural diversity.",
+      "created_at": "2023-06-30T13:37:39.433Z",
+      "updated_at": "2023-06-30T20:03:04.795Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 8,
+    "fields": {
+      "name": "Lumbini",
+      "img_url": "https://media.istockphoto.com/photos/lumbini-nepal-birthplace-of-buddha-siddhartha-gautama-picture-id1128850660?k=6&m=1128850660&s=612x612&w=0&h=VLiKfeUpIxjrAqOfaD43M6rwd602rI_kALC8Sa5t7Ss=",
+      "province": "Lumbini Province",
+      "district": "Rupendehi",
+      "description": "The birthplace of Gautam Buddha, the founder of Buddhism, holds immense spiritual and historical significance. Located in the plains of southern Nepal, Lumbini attracts pilgrims and travelers from around the world. The sacred site is adorned with monasteries, temples, and the iconic Ashoka Pillar, symbolizing the emperor's reverence for Buddhism. The tranquil surroundings, filled with beautiful gardens and serene ponds, create an atmosphere of peace and contemplation. Visitors can explore the Maya Devi Temple, the exact spot where Buddha was born, and meditate under the Bodhi Tree, reflecting on the teachings of peace and enlightenment.",
+      "created_at": "2023-06-30T13:42:40.795Z",
+      "updated_at": "2023-06-30T22:57:47.846Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 9,
+    "fields": {
+      "name": "Mugu",
+      "img_url": "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2016/08/Gamgadi.jpg",
+      "province": "Karnali Province",
+      "district": "Mugu",
+      "description": "Mugu is located in the far-western region of Nepal, is a remote and captivating destination known for its pristine natural beauty and cultural heritage. Home to the magnificent Rara Lake, the largest lake in Nepal, Mugu offers a serene environment surrounded by dense forests and majestic snow-capped mountains. Trekking through the rugged terrains of Mugu allows visitors to immerse themselves in untouched landscapes, passing through remote villages and experiencing the unique cultural traditions of the Muguwal, Thakuri, and Khas communities. Though less developed in terms of infrastructure, Mugu District's raw wilderness, rich cultural heritage, and the breathtaking beauty of Rara Lake make it an enchanting destination for those seeking an off-the-beaten-path adventure in Nepal.",
+      "created_at": "2023-06-30T16:01:12.370Z",
+      "updated_at": "2023-06-30T20:01:37.433Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 10,
+    "fields": {
+      "name": "Chitwan",
+      "img_url": "https://files.prokerala.com/news/photos/imgs/1024/chitwan-aug-13-2019-photo-taken-on-aug-13-2019-878475.jpg",
+      "province": "Bagmati Province",
+      "district": "Chitwan",
+      "description": "Chitwan District, nestled in the Terai region of Nepal, is a captivating destination renowned for its abundant wildlife, lush jungles, and vibrant cultural heritage. Home to the renowned Chitwan National Park, a UNESCO World Heritage Site, the district offers a remarkable wildlife experience, showcasing endangered species such as the one-horned rhinoceros, Bengal tigers, and Asian elephants. Exploring the park through exciting jungle safaris and canoe rides provides a unique opportunity to witness these magnificent creatures in their natural habitat. Beyond its natural wonders, Chitwan District also invites visitors to immerse themselves in the rich Tharu culture, with traditional dance performances, village visits, and flavorsome local cuisine. With its harmonious blend of captivating wildlife and cultural charm, Chitwan District promises an unforgettable journey into the heart of Nepal's natural and cultural treasures.",
+      "created_at": "2023-06-30T16:11:31.194Z",
+      "updated_at": "2023-06-30T20:01:25.703Z"
+    }
+  },
+  {
+    "model": "EHub.location",
+    "pk": 11,
+    "fields": {
+      "name": "solukhumbu",
+      "img_url": "https://cdn.getyourguide.com/img/tour/5c92f687a6d4e.jpeg/145.jpg",
+      "province": "Province No. 1",
+      "district": "solukhumbu",
+      "description": "Solukhumbu, a captivating region in Nepal, is a trekker's paradise and a haven for nature lovers. Nestled amidst the mighty Himalayas, this region boasts some of the world's most iconic mountain peaks, including Mount Everest. The journey begins in Lukla, a picturesque town accessible by a thrilling mountain flight. As you embark on your trek, you'll traverse rugged terrains, dense forests, and charming Sherpa villages. The awe-inspiring vistas of snow-capped peaks, dramatic landscapes, and vibrant rhododendron forests create a surreal backdrop for your adventure. Along the way, immerse yourself in the rich Sherpa culture, visit ancient monasteries, and enjoy warm hospitality. As you ascend higher, you'll be rewarded with breathtaking views of Everest, Lhotse, Nuptse, and other majestic peaks. The journey culminates at Everest Base Camp, a place of immense achievement and a chance to stand in the shadow of the world's highest mountain. The Solukhumbu region offers an unforgettable experience, combining the thrill of trekking with awe-inspiring natural beauty, cultural encounters, and a profound sense of accomplishment.",
+      "created_at": "2023-06-30T19:45:33.650Z",
+      "updated_at": "2023-06-30T19:58:34.896Z"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 1,
+    "fields": {
+      "title": "Religious"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 2,
+    "fields": {
+      "title": "Cultural"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 3,
+    "fields": {
+      "title": "Dating"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 4,
+    "fields": {
+      "title": "Festival"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 5,
+    "fields": {
+      "title": "Fun"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 6,
+    "fields": {
+      "title": "Paragliding"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 7,
+    "fields": {
+      "title": "Hot Air Ballon"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 8,
+    "fields": {
+      "title": "Cable Car"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 9,
+    "fields": {
+      "title": "Trekking"
+    }
+  },
+  {
+    "model": "EHub.sitecategory",
+    "pk": 10,
+    "fields": {
+      "title": "Adventurous"
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 1,
+    "fields": {
+      "name": "Lakeside",
+      "img_url": "https://th.bing.com/th/id/R.32ef93a2ae376c8610981ed47d9a3464?rik=ICKwkglmh7FuyA&pid=ImgRaw&r=0",
+      "location": 1,
+      "description": "asdas",
+      "created_at": "2023-06-30T12:34:03.414Z",
+      "updated_at": "2023-06-30T12:34:03.414Z",
+      "site_type": []
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 2,
+    "fields": {
+      "name": "Kathmandu Durbar Square",
+      "img_url": "https://www.altitudehimalaya.com/media/files/Blog/Travel-News/Kathmandu-Durbar-Square/kathmandu_durbar_dquare_attractions.png",
+      "location": 2,
+      "description": "Kathmandu Durbar Square is a UNESCO World Heritage Site and the historic heart of Kathmandu. It features a complex of palaces, temples, courtyards, and intricately carved wooden structures. The palace complex was once the royal residence of the Malla and Shah dynasties and is a perfect example of Newari architecture. Visitors can marvel at the ancient palaces like Hanuman Dhoka Palace, Taleju Temple, and the Kumari Ghar, which is the residence of the living goddess Kumari. The square is a hub of cultural and religious activities, with numerous festivals celebrated here throughout the year.",
+      "created_at": "2023-06-30T13:48:33.067Z",
+      "updated_at": "2023-06-30T13:48:33.067Z",
+      "site_type": []
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 3,
+    "fields": {
+      "name": "Patan Durbar Square",
+      "img_url": "https://lh3.googleusercontent.com/p/AF1QipNhTTE0HlWPY8_TNYBdKiKM-YGsw6VT4BrRLDkQ=s680-w680-h510",
+      "location": 2,
+      "description": "Patan Durbar Square, located in the city of Lalitpur, is another UNESCO World Heritage Site in the Kathmandu Valley. The palace complex showcases stunning Newari architecture, with intricate carvings, pagoda-style temples, and palace courtyards. The main attractions include the Royal Palace, Krishna Mandir, Bhimsen Temple, and the Golden Temple. The square is also home to the Patan Museum, which houses a remarkable collection of ancient artifacts, sculptures, and artworks, offering insights into the rich history and artistic traditions of the region.",
+      "created_at": "2023-06-30T13:51:03.208Z",
+      "updated_at": "2023-06-30T13:51:03.208Z",
+      "site_type": []
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 4,
+    "fields": {
+      "name": "Bhaktapur Durbar Square",
+      "img_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/02/ee/c7.jpg",
+      "location": 2,
+      "description": "Bhaktapur Durbar Square, situated in the ancient city of Bhaktapur, is yet another UNESCO World Heritage Site renowned for its well-preserved medieval architecture. The palace complex consists of magnificent palaces, temples, and courtyards, showcasing the distinctive Newari craftsmanship. The 55-Window Palace, Nyatapola Temple, Bhairavnath Temple, and Dattatreya Temple are among the prominent attractions. The square also provides an opportunity to witness the traditional culture and lifestyle of the locals, with artisans creating pottery and woodwork in the surrounding narrow streets.",
+      "created_at": "2023-06-30T13:54:31.997Z",
+      "updated_at": "2023-06-30T13:54:31.997Z",
+      "site_type": []
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 5,
+    "fields": {
+      "name": "Pumdikot",
+      "img_url": "https://capblogger.com/wp-content/uploads/2021/11/shiva8.webp",
+      "location": 1,
+      "description": "Pumdikot, located in the Kaski district of Nepal, is a popular hilltop destination that offers stunning panoramic views of the Annapurna and Dhaulagiri mountain ranges. Pumdikot is also known for its cultural and spiritual significance. The hilltop features a prominent and grand statue of Lord Shiva, adding to the spiritual ambiance of the place. The statue of Lord Shiva attracts devotees and visitors who come to offer prayers and seek blessings. The presence of the Lord Shiva statue enhances the overall cultural and religious experience of Pumdikot, making it a sacred and revered destination for devotees and tourists alike.",
+      "created_at": "2023-06-30T13:58:53.752Z",
+      "updated_at": "2023-06-30T14:24:14.229Z",
+      "site_type": [1, 2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 6,
+    "fields": {
+      "name": "Gorkha Darbaur",
+      "img_url": "https://www.nepalvisitinfo.com/wp-content/uploads/2019/09/gorkha-durbar.png",
+      "location": 4,
+      "description": "Gorkha Durbar is a historic palace located in Gorkha, Nepal. It served as the ancestral home of the Shah dynasty, which played a significant role in the unification of modern Nepal. The palace complex consists of several beautifully crafted temples, statues, and courtyards. It offers visitors a glimpse into the rich cultural and architectural heritage of the region.",
+      "created_at": "2023-06-30T14:25:41.592Z",
+      "updated_at": "2023-06-30T14:25:41.592Z",
+      "site_type": [1, 2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 7,
+    "fields": {
+      "name": "Manakamana Temple",
+      "img_url": "https://admin.visitmanakamana.com/assets/images/pages/1646373481.jpg",
+      "location": 4,
+      "description": "Situated on a hilltop in Gorkha, the Manakamana Temple is a popular pilgrimage site dedicated to the Hindu goddess Bhagwati. To reach the temple, visitors can take a cable car ride offering stunning views of the surrounding hills and valleys. The temple is believed to fulfill the wishes of devotees, attracting a large number of pilgrims throughout the year.",
+      "created_at": "2023-06-30T14:28:08.870Z",
+      "updated_at": "2023-06-30T19:19:37.761Z",
+      "site_type": [1, 2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 8,
+    "fields": {
+      "name": "Ghandruk Village",
+      "img_url": "https://blogsmedia.s3.amazonaws.com/blog/wp-content/uploads/2017/08/23155251/IMG_4418.jpg",
+      "location": 5,
+      "description": "Ghandruk village is a picturesque Gurung settlement located in the Annapurna region of Nepal. It is famous for its stunning mountain views, traditional Gurung culture, and warm hospitality. The village features traditional stone houses, narrow alleys, and terraced fields, offering a glimpse into the rural mountain lifestyle of Nepal. Visitors can explore the village, interact with the friendly locals, and experience the authentic Gurung culture.",
+      "created_at": "2023-06-30T14:33:46.438Z",
+      "updated_at": "2023-06-30T14:33:46.438Z",
+      "site_type": [2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 9,
+    "fields": {
+      "name": "Annapurna Base Camp Trek",
+      "img_url": "https://www.alpineramble.com/uploads/img/annapurna-base-camp-hike-ne-(1).jpg",
+      "location": 5,
+      "description": "Ghandruk serves as a starting point for the Annapurna Base Camp (ABC) Trek, one of the most popular and scenic treks in Nepal. The trek takes adventurers through diverse landscapes, including dense forests, terraced fields, and high-altitude valleys, culminating at the spectacular Annapurna Base Camp. Along the way, trekkers can enjoy breathtaking views of snow-capped peaks, encounter diverse flora and fauna, and experience the unique culture of the region.",
+      "created_at": "2023-06-30T15:02:01.004Z",
+      "updated_at": "2023-06-30T15:02:01.004Z",
+      "site_type": [9, 5]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 10,
+    "fields": {
+      "name": "Old Gurung Museum",
+      "img_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/24/ef/a6/img-20190413-100358-largejpg.jpg?w=1000&h=-1&s=1",
+      "location": 5,
+      "description": "The Old Gurung Museum in Ghandruk showcases the cultural heritage and traditions of the Gurung community. It features exhibits that highlight the history, lifestyle, costumes, weapons, and artifacts of the Gurung people. Visitors can learn about the rich Gurung culture, folklore, and their contributions to the region.",
+      "created_at": "2023-06-30T15:05:31.922Z",
+      "updated_at": "2023-06-30T15:05:31.922Z",
+      "site_type": [2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 11,
+    "fields": {
+      "name": "Parbat Durbar",
+      "img_url": "https://lexlimbu.com/wp-content/uploads/The-Heritage-Mallaj-Nepal-5-640x360.jpg",
+      "location": 3,
+      "description": "Parbat Durbar, located in Kushma, is a historic palace complex that served as the administrative center for the region in ancient times. The palace showcases traditional architecture, with intricate carvings and ornate designs. Parbat Durbar is a symbol of the region's administrative and political heritage, providing insights into the historical significance of Kushma.\r\n\r\nThese palaces in Kushma are not only architectural marvels but also represent the cultural and historical heritage of the region. They serve as reminders of the grandeur of the past and offer visitors a glimpse into the rich history and traditions of Kushma.\r\n\r\n\r\n\r\n\r\n\r\nUser\r\nkalika is no t in kushma its in baglung \r\nChatGPT\r\nApologies for the incorrect information. You are correct. The Kalika Temple is located in Baglung, not Kushma. Thank you for pointing that out.",
+      "created_at": "2023-06-30T15:28:54.004Z",
+      "updated_at": "2023-06-30T15:28:54.004Z",
+      "site_type": [1]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 12,
+    "fields": {
+      "name": "Kushma Bungee Jump",
+      "img_url": "https://media.nepaltrekadventures.com/uploads/socialmedia/bunjee-social.jpg",
+      "location": 3,
+      "description": "Kushma offers a thrilling bungee jumping experience that attracts adventure enthusiasts from around the world. The bungee jump takes place from a suspension bridge over the Kali Gandaki River, offering an adrenaline-pumping free fall experience. It is an exhilarating activity that allows participants to enjoy breathtaking views of the surrounding landscapes while experiencing an adrenaline rush.",
+      "created_at": "2023-06-30T15:38:13.130Z",
+      "updated_at": "2023-06-30T15:38:13.130Z",
+      "site_type": [5]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 13,
+    "fields": {
+      "name": "Bandipur Bazaar",
+      "img_url": "https://saarang.com.np/wp-content/uploads/2023/02/Bandipur_Bazar.jpg",
+      "location": 6,
+      "description": "Bandipur Bazaar is the heart of the town and a vibrant hub of activity. The bazaar features beautiful traditional Newari buildings adorned with intricately carved windows and artistic details. Walking through the narrow cobbled streets, visitors can explore local shops, cafes, and restaurants offering authentic Newari cuisine. Bandipur Bazaar is a great place to soak in the traditional ambiance and experience the local way of life.",
+      "created_at": "2023-06-30T15:49:55.021Z",
+      "updated_at": "2023-06-30T15:49:55.021Z",
+      "site_type": [2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 14,
+    "fields": {
+      "name": "Bindabasini Temple",
+      "img_url": "https://i.pinimg.com/originals/c8/ae/07/c8ae07560df9af9e930f2b1bdd49ab9d.jpg",
+      "location": 1,
+      "description": "Bindabasini Temple is a revered Hindu temple situated in Pokhara, Nepal, dedicated to Goddess Bindabasini, an incarnation of Goddess Durga. Perched on a hilltop, the temple offers breathtaking views of the surrounding mountains and the cityscape. Devotees flock to the temple to seek blessings, perform religious rituals, and immerse themselves in the serene atmosphere. The temple also holds cultural significance, hosting vibrant festivals and celebrations, where colorful processions and traditional performances take place. A visit to Bindabasini Temple provides a spiritual and cultural experience, allowing visitors to connect with the rich heritage of Nepal while enjoying the panoramic beauty of the landscape.",
+      "created_at": "2023-06-30T15:55:16.015Z",
+      "updated_at": "2023-06-30T22:48:58.064Z",
+      "site_type": [1, 2]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 15,
+    "fields": {
+      "name": "Rara Lake",
+      "img_url": "https://www.adventurehimalayacircuit.com/files/groups/Rara%20Lake%20Trekking.jpg",
+      "location": 9,
+      "description": "Rara Lake is a jewel of Karnali and the largest lake in Nepal. Located in Rara National Park, it offers a tranquil and picturesque setting surrounded by lush forests and snow-capped mountains. The crystal-clear waters of the lake reflect the stunning natural surroundings, making it a paradise for nature lovers and photographers.",
+      "created_at": "2023-06-30T16:04:23.946Z",
+      "updated_at": "2023-06-30T16:04:23.946Z",
+      "site_type": [5]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 16,
+    "fields": {
+      "name": "Chitwan National Park",
+      "img_url": "https://images.thrillophilia.com/image/upload/s--OPlvWYlP--/c_fill,h_775,q_auto,w_1600/f_auto,fl_strip_profile/v1/images/photos/000/053/727/original/Jungle_Safari_Chitwan.JPG.jpg?1458199183",
+      "location": 10,
+      "description": "Chitwan National Park, located in the Terai region of Nepal, is a renowned UNESCO World Heritage Site and a haven for wildlife enthusiasts. Spanning over 932 square kilometers, the park boasts a diverse ecosystem that encompasses lush jungles, grasslands, and wetlands. It is home to a remarkable array of wildlife, including the majestic Bengal tiger, the elusive one-horned rhinoceros, Asian elephants, and over 500 species of birds. Exploring Chitwan National Park offers thrilling opportunities for wildlife safaris, where visitors can witness these iconic creatures up close in their natural habitat. The park also offers activities such as elephant rides, canoeing along the Rapti River, and guided nature walks, providing a unique and immersive experience in the heart of Nepal's natural wonders.",
+      "created_at": "2023-06-30T16:14:14.308Z",
+      "updated_at": "2023-06-30T17:55:21.362Z",
+      "site_type": [5, 10]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 18,
+    "fields": {
+      "name": "Pame",
+      "img_url": "https://www.altitudehimalaya.com/media/files/Blog/Travel-Guides/pokhara-nepal.jpg",
+      "location": 1,
+      "description": "Pame, located near Pokhara in Nepal, is a charming lakeside village that offers a tranquil escape and breathtaking natural beauty. Nestled on the shores of Phewa Lake, Pame boasts stunning views of the surrounding Himalayan peaks, including the iconic Machhapuchhre (Fishtail) Mountain. The village is known for its serene atmosphere and idyllic setting, making it a popular destination for those seeking peace and relaxation. Visitors can take leisurely walks along the lakeside, rent a boat to explore the calm waters of Phewa Lake, or simply unwind while enjoying the mesmerizing sunset views. Pame also serves as a gateway to various hiking trails, allowing adventurous travelers to embark on short treks and explore the lush forests and terraced fields that characterize the region. With its tranquil ambiance and breathtaking vistas, Pame offers a serene retreat for nature lovers and a perfect base to experience the natural wonders of Pokhara.",
+      "created_at": "2023-06-30T18:21:38.457Z",
+      "updated_at": "2023-06-30T18:21:38.457Z",
+      "site_type": [3, 5, 7]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 20,
+    "fields": {
+      "name": "Everest base camp",
+      "img_url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/1617b77abc5f145c1b63b6a8fa2c71d1a9635a49/big-41de896ec00afcffd3d1479f04fffc9f.jpg",
+      "location": 11,
+      "description": "Everest Base Camp, located in the Solukhumbu region of Nepal, is one of the most iconic and sought-after destinations for adventurous trekkers and mountaineers. Situated at an altitude of 5,364 meters (17,598 feet), it serves as the starting point for climbers embarking on the ultimate quest to summit Mount Everest, the highest peak in the world. The journey to Everest Base Camp is a challenging and awe-inspiring adventure, taking trekkers through rugged mountain trails, majestic valleys, and picturesque Sherpa villages. Along the way, you'll be surrounded by breathtaking vistas of towering snow-capped peaks, including Everest, Lhotse, Nuptse, and others. The trek offers a unique opportunity to immerse yourself in the rich Sherpa culture, as you interact with friendly locals, visit monasteries, and witness their way of life amidst the stunning Himalayan backdrop. Reaching Everest Base Camp is a momentous achievement, where you'll stand in the shadow of the mighty Everest, surrounded by a sense of awe and admiration for the mountaineering history and the indomitable spirit of those who dare to conquer the world's highest peak.",
+      "created_at": "2023-06-30T19:54:51.969Z",
+      "updated_at": "2023-06-30T19:54:51.969Z",
+      "site_type": [9, 10]
+    }
+  },
+  {
+    "model": "EHub.site",
+    "pk": 21,
+    "fields": {
+      "name": "Tal Barahi Temple",
+      "img_url": "https://th.bing.com/th/id/OIP.atsBOW7Ns0BVmtFVhWHa5gHaE7?pid=ImgDet&rs=1",
+      "location": 1,
+      "description": "Tal Barahi, also known as Barahi Temple, is a significant religious site located on a small island in Phewa Lake, Pokhara, Nepal. This temple is dedicated to Goddess Barahi, a manifestation of Hindu goddess Durga. Accessible by boats, Tal Barahi attracts numerous devotees and tourists throughout the year. The temple's picturesque setting amidst the serene lake and lush greenery adds to its allure. People visit to offer prayers, seek blessings, and perform religious ceremonies. The temple holds special significance during festivals, particularly during Dashain when it witnesses a flurry of activities and festivities. With its cultural and spiritual importance, Tal Barahi stands as an iconic landmark in Pokhara, captivating visitors with its religious ambiance and natural beauty.",
+      "created_at": "2023-06-30T23:01:20.944Z",
+      "updated_at": "2023-06-30T23:02:41.888Z",
+      "site_type": [1, 2]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 1,
+    "fields": {
+      "title": "Annapurna Base Camp Short Trek",
+      "province": "Gandaki Province",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "type": "Tour",
+      "duration": "9 Days",
+      "guide_type": "Full Guided",
+      "rating": 5.0,
+      "site": 9,
+      "starting_price": "66000.00",
+      "img_url": "https://th.bing.com/th/id/R.32ef93a2ae376c8610981ed47d9a3464?rik=ICKwkglmh7FuyA&pid=ImgRaw&r=0",
+      "start_location": "Nayapul",
+      "end_location": "Pokhara",
+      "mode_of_transportation": "Trekking",
+      "accomodation": "Camping and Homestay",
+      "ageRange": "16-45",
+      "description": "<p>The short trek to Annapurna Base Camp is a captivating adventure that takes trekkers through awe-inspiring landscapes and to the foot of towering Himalayan peaks. Starting from Nayapul, the trail meanders through picturesque villages, lush forests, and terraced fields, offering glimpses of majestic waterfalls and vibrant rhododendron forests. As the journey progresses, the views of snow-capped peaks become more impressive, leading to the ultimate reward of reaching Annapurna Base Camp at 4,130 meters. Standing amidst the grandeur of Annapurna I and the iconic Machhapuchhre, trekkers are surrounded by a breathtaking amphitheater of glaciers and rugged terrain. The trek provides an immersive experience in nature&#39;s magnificence, cultural encounters with local communities, and a sense of accomplishment as the beauty of the Annapurna region unfolds.</p>",
+      "created_at": "2023-06-30T12:35:01.837Z",
+      "updated_at": "2023-07-01T00:47:41.097Z",
+      "categories": [9, 5]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 2,
+    "fields": {
+      "title": "Ghandruk Loop Trek from Pokhara",
+      "province": "Gandaki Province",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "type": "Tour",
+      "duration": "3 Days",
+      "guide_type": "Full Guided",
+      "rating": 5.0,
+      "site": 8,
+      "starting_price": "1999.00",
+      "img_url": "https://www.nepalsanctuarytreks.com/wp-content/uploads/2018/10/1024px-Ghandruk_village.jpg",
+      "start_location": "Pokhara",
+      "end_location": "Pokhara",
+      "mode_of_transportation": "Trekking",
+      "accomodation": "Camping and Homestay",
+      "ageRange": "10-60",
+      "description": "<p>The Ghandruk Loop Trek, starting from Pokhara, is a mesmerizing journey that takes trekkers on a scenic adventure through the breathtaking landscapes of the Annapurna region. The trek begins in Nayapul and follows a trail that meanders through terraced fields, lush forests, and charming villages. As trekkers ascend, they are rewarded with awe-inspiring views of towering peaks, including the magnificent Machhapuchhre and Annapurna South. The trail then leads to Ghandruk, a traditional Gurung village known for its warm hospitality and cultural richness. Exploring the narrow stone-paved streets and traditional houses in Ghandruk offers a fascinating insight into the local way of life. Continuing the trek, the path takes trekkers through rhododendron forests and picturesque hamlets, where they can immerse themselves in the tranquility of the natural surroundings. The Ghandruk Loop Trek is an incredible experience that combines the beauty of nature with cultural encounters, leaving trekkers with unforgettable memories of the Annapurna region.</p>",
+      "created_at": "2023-06-30T18:09:55.195Z",
+      "updated_at": "2023-07-01T00:48:17.834Z",
+      "categories": [9]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 3,
+    "fields": {
+      "title": "Hot Air Balloon in Pokhara",
+      "province": "Gandaki Province",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "type": "Tour",
+      "duration": "2 Hour",
+      "guide_type": "Partial Guided",
+      "rating": 4.3,
+      "site": 18,
+      "starting_price": "15000.00",
+      "img_url": "https://excellenttrek.com/wp-content/themes/excellent/inc/timthumb.php?src=https://excellenttrek.com/wp-content/uploads/2018/11/Hot-Air-Balloon-in-Pokhara.gif&w=840&h=350",
+      "start_location": "Pame Pokhara",
+      "end_location": "Pame Pokhara",
+      "mode_of_transportation": "Hot Air Balloon",
+      "accomodation": "None",
+      "ageRange": "5-65",
+      "description": "<p>Hot air ballooning in Pokhara is a truly magical experience that allows you to witness the breathtaking beauty of this enchanting city from a whole new perspective. As you gently ascend into the sky, you&#39;ll be greeted by the stunning vistas of the Annapurna mountain range, including the iconic Machhapuchhre (Fishtail) peak. Floating above the serene Phewa Lake and the lush valleys surrounding Pokhara, you&#39;ll feel a sense of tranquility and awe. The bird&#39;s-eye view of the city, with its vibrant markets, ancient temples, and charming villages, is simply mesmerizing. Whether you choose a sunrise or sunset flight, the changing colors of the sky and the landscape create a picturesque backdrop for an unforgettable experience. Soaring high above Pokhara in a hot air balloon is an adventure that combines thrill, serenity, and breathtaking beauty, leaving you with cherished memories of this incredible destination.</p>",
+      "created_at": "2023-06-30T18:29:14.897Z",
+      "updated_at": "2023-07-01T00:48:41.294Z",
+      "categories": [7]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 4,
+    "fields": {
+      "title": "Paragliding From Sarangkot to Pame",
+      "province": "Gandaki Province",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "type": "Tour",
+      "duration": "30-40 Mins",
+      "guide_type": "Full Guided",
+      "rating": 4.6,
+      "site": 1,
+      "starting_price": "10000.00",
+      "img_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/8c/76/6e/pokhara-paragliding.jpg?w=1200&h=-1&s=1",
+      "start_location": "Lakeside",
+      "end_location": "Pame",
+      "mode_of_transportation": "Lakeside to Sarangkot through Jeep and paragliding from sarangkot  to Pame",
+      "accomodation": "None",
+      "ageRange": "16-45",
+      "description": "<p>Paragliding from Sarangkot to Pame is an exhilarating adventure that offers a unique and thrilling way to experience the stunning landscapes of Pokhara. As you take off from the hilltop of Sarangkot, you&#39;ll be treated to breathtaking panoramic views of the Annapurna range, including the majestic Machhapuchhre (Fishtail) Mountain. The thrill of soaring through the sky with the wind in your face is unmatched as you glide gracefully over the picturesque Phewa Lake and the lush valleys below. The tandem paragliding experience ensures that even beginners can enjoy this adrenaline-pumping activity while being guided by experienced pilots. Throughout the flight, you&#39;ll feel a sense of freedom and exhilaration as you take in the awe-inspiring beauty of the surrounding mountains, terraced fields, and charming villages. The smooth descent eventually brings you to the serene lakeside village of Pame, where you can reflect on the incredible journey you just experienced. Paragliding from Sarangkot to Pame is an unforgettable adventure that combines adrenaline, natural beauty, and a unique perspective of Pokhara&#39;s landscapes.</p>",
+      "created_at": "2023-06-30T18:51:11.183Z",
+      "updated_at": "2023-07-01T00:48:59.385Z",
+      "categories": [6]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 5,
+    "fields": {
+      "title": "Kathmandu : Religious and Cultural Heritage full Day Tour",
+      "province": "Bagmati Province",
+      "district": "Kathmandu",
+      "city": "Kathmandu",
+      "type": "Tour",
+      "duration": "1 Day",
+      "guide_type": "Full Guided",
+      "rating": 4.2,
+      "site": 2,
+      "starting_price": "10000.00",
+      "img_url": "https://www.altitudehimalaya.com/media/files/Category/world-hgeritage-sites.png",
+      "start_location": "Sundhara,Kathmandu",
+      "end_location": "Bhaktapur Darbar Square",
+      "mode_of_transportation": "Taxi",
+      "accomodation": "None",
+      "ageRange": "1-80",
+      "description": "<p>Embark on a captivating full-day religious and cultural heritage tour in Kathmandu, starting from Sundhara and concluding at Bhaktapur Durbar Square. Begin your journey by visiting the sacred site of Swayambhunath, the Monkey Temple, where you&#39;ll ascend the stone steps to witness the iconic stupa and panoramic views of the city. Next, head to Pashupatinath Temple, the holiest Hindu shrine in Nepal, to experience the profound spiritual rituals along the Bagmati River. Explore the ancient UNESCO World Heritage Site of Boudhanath, immersing yourself in the peaceful ambiance and observing devotees circling the colossal stupa. Afterward, discover the historical Kathmandu Durbar Square, where Newari architecture and intricate woodcarvings adorn palaces and temples. Finally, reach Bhaktapur Durbar Square, adorned with ancient palaces and architectural masterpieces, concluding your day immersed in the religious and cultural wonders of Kathmandu&#39;s heritage.</p>",
+      "created_at": "2023-06-30T19:09:09.729Z",
+      "updated_at": "2023-07-01T00:49:53.096Z",
+      "categories": [1, 2, 5]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 6,
+    "fields": {
+      "title": "Chitwan Jungle Safari with Elephant Bath",
+      "province": "Bagmati Province",
+      "district": "Chitwan",
+      "city": "Sauraha",
+      "type": "Tour",
+      "duration": "3 Hours",
+      "guide_type": "Partial Guided",
+      "rating": 4.5,
+      "site": 16,
+      "starting_price": "8999.00",
+      "img_url": "https://cdn.getyourguide.com/img/tour/6491d9477fcf7.jpeg/98.jpg",
+      "start_location": "Chitwan National Park",
+      "end_location": "Chitwan National Park",
+      "mode_of_transportation": "Elephant Ride",
+      "accomodation": "None",
+      "ageRange": "7-65",
+      "description": "<p>Embark on an unforgettable Chitwan Jungle Safari with Elephant Bath, immersing yourself in the natural wonders of the Chitwan National Park. The adventure begins as you enter the lush forest, accompanied by experienced guides who will lead you through the dense foliage in search of wildlife encounters. Traverse the park on the back of an elephant, gaining a unique perspective and a chance to observe the magnificent creatures of the jungle up close. As you explore, keep your eyes peeled for elusive Bengal tigers, one-horned rhinos, wild elephants, and a variety of bird species. After an exhilarating safari, it&#39;s time for a truly memorable experience &ndash; the elephant bath. Join the mahouts (elephant caretakers) in the Rapti River, where you&#39;ll have the opportunity to interact with these gentle giants and assist in giving them a refreshing bath. The bond formed during this interaction is truly special and creates lifelong memories. As you revel in the beauty of the surrounding nature and the playful splashes of the elephants, you&#39;ll gain a deeper appreciation for these magnificent creatures and the importance of conservation efforts. The Chitwan Jungle Safari with Elephant Bath promises an extraordinary adventure, combining wildlife encounters, breathtaking landscapes, and a once-in-a-lifetime opportunity to connect with elephants in a meaningful way.</p>",
+      "created_at": "2023-06-30T19:18:25.256Z",
+      "updated_at": "2023-07-01T00:50:55.985Z",
+      "categories": [10]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 7,
+    "fields": {
+      "title": "Chitwan : Jeep Safari",
+      "province": "Bagmati Province",
+      "district": "Chitwan",
+      "city": "sauraha",
+      "type": "Tour",
+      "duration": "2 Hours",
+      "guide_type": "Partial Guided",
+      "rating": 4.4,
+      "site": 16,
+      "starting_price": "4000.00",
+      "img_url": "https://www.chitwanjunglesafaritour.com/wp-content/uploads/2020/01/chitwan-national-park-jeep-safari.jpg",
+      "start_location": "Chitwan National Park",
+      "end_location": "Chitwan National Park",
+      "mode_of_transportation": "Jeep",
+      "accomodation": "None",
+      "ageRange": "5-65",
+      "description": "<p>Embark on an exhilarating Chitwan Jeep Safari and immerse yourself in the captivating wilderness of the Chitwan National Park. The adventure begins as you hop into a sturdy jeep, specially designed for off-road exploration. With experienced guides at the helm, you&#39;ll traverse through the diverse ecosystems of the park, including dense forests, grasslands, and riverbanks. As you navigate through rugged terrains, keep your eyes peeled for a wide array of wildlife, such as the elusive Bengal tiger, one-horned rhinos, sloth bears, deer, and an abundance of bird species. The jeep safari allows you to cover a larger area of the park, increasing your chances of spotting these magnificent creatures in their natural habitats. Along the way, your knowledgeable guides will share interesting insights about the park&#39;s ecology, wildlife conservation, and local traditions. The thrill of the safari is heightened by the anticipation of close encounters with the park&#39;s inhabitants. The Chitwan Jeep Safari promises an exhilarating adventure, offering an up-close experience with the rich biodiversity and untamed beauty of Chitwan National Park.</p>",
+      "created_at": "2023-06-30T19:27:28.546Z",
+      "updated_at": "2023-07-01T00:50:41.197Z",
+      "categories": [10, 5]
+    }
+  },
+  {
+    "model": "EHub.plan",
+    "pk": 8,
+    "fields": {
+      "title": "Everest Base Camp: 3 Hour Helicopter Sightseeing Tour",
+      "province": "Province No. 1",
+      "district": "solukhumbu",
+      "city": "Lukla",
+      "type": "Tour",
+      "duration": "3 Hours",
+      "guide_type": "None",
+      "rating": 4.5,
+      "site": 20,
+      "starting_price": "160000.00",
+      "img_url": "https://cdn.getyourguide.com/img/tour/5c9220b903699.jpeg/145.jpg",
+      "start_location": "Tribhuwan  International Airport",
+      "end_location": "Tribhuwan International Airport",
+      "mode_of_transportation": "Helicopter",
+      "accomodation": "None",
+      "ageRange": "5-70",
+      "description": "<p>Experience an extraordinary 3-hour helicopter sightseeing tour from Tribhuvan International Airport in Kathmandu, taking you on a mesmerizing journey to the renowned Everest Base Camp. Prepare to be enthralled as you soar above the majestic Himalayan landscape, revealing breathtaking vistas of snow-capped peaks, deep valleys, and cascading glaciers. Along the way, witness the iconic landmarks such as Namche Bazaar and Tengboche Monastery, immersing yourself in the rich cultural and natural heritage of the region. As you approach Everest Base Camp, marvel at the awe-inspiring grandeur of Mount Everest, standing as the pinnacle of human achievement. Capture unforgettable moments and cherish the breathtaking beauty as you touch down at Kala Patthar, a vantage point offering unparalleled panoramic views of Everest, Lhotse, and the surrounding Himalayan panorama. This exclusive helicopter tour provides a once-in-a-lifetime opportunity to witness the majesty of Everest Base Camp from above, creating memories that will last a lifetime.</p>",
+      "created_at": "2023-06-30T20:19:16.764Z",
+      "updated_at": "2023-07-01T00:51:17.848Z",
+      "categories": [10, 5]
+    }
+  },
+  {
+    "model": "EHub.event",
+    "pk": 1,
+    "fields": {
+      "name": "Haritalika Teej",
+      "type": "Festival",
+      "img_url": "https://th.bing.com/th/id/OIP.eu_xy0KMhvmJ-38szQIftAHaEK?pid=ImgDet&rs=1",
+      "date": "2023-09-18",
+      "location": "White House, Pokhara",
+      "place": "Pokhara",
+      "venue": "White  House ,sirjana Chowk",
+      "description": "Join us for an enchanting celebration of Teej at the prestigious White House Party Palace! Teej is a vibrant and joyous festival celebrated by women to honor the sacred bond of marriage and rejoice in the arrival of the monsoon season.\r\n\r\nAs you step into the beautifully adorned White House Party Palace, you will be greeted by an atmosphere brimming with elegance and cultural richness. The venue will be transformed into a captivating oasis, featuring intricate decorations in shades of red and green, symbolizing the blossoming of love and the lushness of nature.\r\n\r\nIndulge in a sumptuous feast that showcases delectable traditional delicacies from various regions, enticing your taste buds with flavors that reflect the diversity of Teej festivities. From mouthwatering sweets like ghewar and jalebi to savory delights such as samosas and pakoras, the culinary delights will transport you to the heart of the celebration.\r\n\r\nImmerse yourself in the rhythmic beats of traditional folk music and dance performances that will captivate your senses. Accomplished artists will grace the stage, enchanting you with their graceful movements and vibrant costumes, while the melodic tunes of traditional instruments fill the air, setting the perfect ambiance for revelry and merriment.\r\n\r\nIn keeping with the spirit of Teej, we have arranged various engaging activities that embody the essence of this joyous occasion. From applying intricate henna designs on your hands to participating in playful games and cultural rituals, you will have the opportunity to experience the customs and traditions associated with Teej firsthand.\r\n\r\nThe White House Party Palace provides a spacious and comfortable setting, ensuring that you can celebrate Teej in grandeur and style. Our dedicated staff will be on hand to cater to your needs, ensuring that every moment of this celebration becomes a cherished memory.\r\n\r\nCome, join us at the White House Party Palace as we celebrate Teej, embracing the spirit of love, happiness, and togetherness. Let the magic of this auspicious festival envelop you and create memories that will last a lifetime."
+    }
+  },
+  {
+    "model": "EHub.event",
+    "pk": 2,
+    "fields": {
+      "name": "Indra Jatra celebration at Basantapur Darbar Square",
+      "type": "Festival",
+      "img_url": "https://th.bing.com/th/id/R.2eb7a9d54dc2864772cba61bf25add05?rik=wkoal5lhI2f4pQ&pid=ImgRaw&r=0",
+      "date": "2023-09-28",
+      "location": "Basantapur Darbaur Square",
+      "place": "Kathmandu",
+      "venue": "Basantapur Darbaur Square",
+      "description": "Join us for an unforgettable celebration at Basantapur Durbar Square in Kathmandu as we commemorate the vibrant festival of Indrajatra!\r\n\r\nIndrajatra is a significant cultural festival celebrated with great enthusiasm in the heart of Kathmandu. This annual extravaganza pays homage to Lord Indra, the king of gods and the lord of rain and prosperity.\r\n\r\nAs you step into the magnificent Basantapur Durbar Square, you will be immersed in a tapestry of colors, sounds, and rituals that symbolize the rich cultural heritage of Nepal. The historical square, adorned with intricate architecture and ancient temples, provides the perfect backdrop for this grand celebration.\r\n\r\nBe enchanted by the sight of intricately crafted chariots, known as \"rath,\" as they are prepared to carry the idols of Lord Indra and other deities through the bustling streets of Kathmandu. The chariots, adorned with ornate decorations and pulled by devotees, create a mesmerizing spectacle that is a feast for the eyes.\r\n\r\nExperience the pulsating energy of traditional Newari music and dance performances that will captivate your senses. Dancers adorned in vibrant costumes will showcase their skills, accompanied by the rhythmic beats of traditional instruments. The air will be filled with joyous melodies, creating an atmosphere of jubilation and cultural splendor.\r\n\r\nWitness the age-old tradition of \"Pulukishi,\" where performers dressed as demons roam the streets, symbolizing the triumph of good over evil. This unique ritual adds an element of excitement and folklore to the festivities, as locals and visitors alike revel in the spectacle.\r\n\r\nIndulge in a wide array of delectable Newari cuisine, renowned for its rich flavors and unique culinary traditions. From mouthwatering delicacies like \"kwati\" (mixed bean soup) and \"yomari\" (sweet rice cake) to savory delights such as \"choila\" (marinated meat) and \"bara\" (lentil pancake), you will have the opportunity to savor the authentic tastes of Nepal.\r\n\r\nAs you navigate through the bustling streets of Basantapur Durbar Square, you will encounter vibrant market stalls offering traditional arts, crafts, and souvenirs. Immerse yourself in the lively ambiance as you explore the local handicrafts, intricately carved wooden masks, colorful textiles, and intricate metalwork ΓÇô all showcasing the rich cultural heritage of Nepal.\r\n\r\nJoin us at Basantapur Durbar Square in Kathmandu for a grand celebration of Indrajatra, where tradition, spirituality, and community come together in a joyous display of Nepalese culture. Let the vibrant festivities and warm hospitality create lasting memories as we pay homage to the revered deities and rejoice in the spirit of unity and merriment."
+    }
+  },
+  {
+    "model": "EHub.event",
+    "pk": 3,
+    "fields": {
+      "name": "Celebration of the Chritmas Day at Bhatbhateni",
+      "type": "Festival",
+      "img_url": "https://www.indiastudychannel.com/attachments/Resources/175295-4-Christmas-decoration-EA.jpg",
+      "date": "2023-12-25",
+      "location": "NewRoad",
+      "place": "Pokhara",
+      "venue": "Bhatbhateni,NewRoad-Pokhara",
+      "description": "I'm sorry, but as an AI language model, I am unable to make direct calls or announcements for specific events or celebrations. However, if you are looking to promote a Christmas celebration at BhatBhateni or any other location, here is a sample call-to-celebration message you can use:\r\n\r\n\"Join us for a festive Christmas celebration at BhatBhateni! We invite you to experience the joy and magic of the holiday season with us on December 25th.\r\n\r\nCome and enjoy our beautifully decorated store, special offers, and discounts on a wide range of products. Immerse yourself in the spirit of Christmas as we play delightful holiday music, host live performances, and create a memorable atmosphere for everyone.\r\n\r\nWe also encourage you to share your happiness and spread the holiday cheer by participating in our donation drives and gift exchanges. Let's come together as a community to make a difference and bring smiles to those in need.\r\n\r\nBring your family and friends to BhatBhateni and create lasting memories this Christmas. We look forward to celebrating with you!"
+    }
+  },
+  {
+    "model": "EHub.event",
+    "pk": 4,
+    "fields": {
+      "name": "Chasing Sunrise: Methlang Run 25k | 5k FunRun | 1K Family FunRun",
+      "type": "Others",
+      "img_url": "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/352214310_674310687840525_2140601206952248269_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=340051&_nc_ohc=hZNWWjPSJYAAX_3Qltm&_nc_ht=scontent",
+      "date": "2023-07-22",
+      "location": "Pokhara-5,Manakamana Mandir",
+      "place": "Pokhara",
+      "venue": "Pokhara-5,Manakamana Mandir",
+      "description": "Race Distance: 25K Competition Race & 5K FunRun\r\nRace Date: July 22nd, 2023\r\nTime :  AT 2:45 PM UTC+05:45\r\nEntry Fee: Rs. 100 for all race categories /Rs. 1000 non-Nepali\r\nEntry Limit: 100 participants in each category\r\nITRA 2 points / UTMB Index 20K for 25K finishers\r\nPrizes will be distributed per Gender Category and for both distances.\r\nRegistration @ https://pokharatrailraceseries.org/open-for-registrations"
+    }
+  },
+  {
+    "model": "EHub.review",
+    "pk": 2,
+    "fields": {
+      "plan": 1,
+      "rating": 5,
+      "user": 1,
+      "comment": "awesome"
+    }
+  }
+]

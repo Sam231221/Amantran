@@ -1,0 +1,593 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "places_nearby":[
+    {
+      "id":1,
+      "img_url":"https://images.unsplash.com/photo-1688019984360-50d40dfa955a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "title":"Pokhara",
+      "description":"15 sites, 60 sites available"
+    },
+    {
+      "id":2,
+      "img_url":"https://plus.unsplash.com/premium_photo-1675440682547-d3be56f91621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+      "title":"Kathmandu",
+      "description":"15 sites, 60 sites available"
+    },
+    {
+      "id":3,
+      "img_url":"https://images.unsplash.com/photo-1640690821275-c6aa1e1ccee3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+      "title":"Pokhara",
+      "description":"15 sites, 60 sites available"
+    }
+  ],
+
+  "religious_cultural_sites":[
+    {
+      "id":1,
+      "img_url":"https://plus.unsplash.com/premium_photo-1679485158336-fbdd2e987139?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "title":"Name of religious place",
+      "description":"A beautiful idol of Lord Ganesha during a procession for Ganesh Chaturthi in Mumbai, India",
+      "btn_text":"15 plans"
+    },
+    {
+      "id":2,
+      "img_url":"https://images.unsplash.com/photo-1679756371237-f6a2db77887a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80",
+      "title":"Name of religious place",
+      "description":"A beautiful idol of Lord Ganesha during a procession for Ganesh Chaturthi in Mumbai, India",
+      "btn_text":"15 plans"
+    },
+    {
+      "id":3,
+      "img_url":"https://images.unsplash.com/photo-1513614835783-51537729c8ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "title":"Name of religious place",
+      "description":"A beautiful idol of Lord Ganesha during a procession for Ganesh Chaturthi in Mumbai, India",
+      "btn_text":"15 plans"
+    },
+    {
+      "id":4,
+      "img_url":"https://images.unsplash.com/photo-1529733905113-027ed85d7e33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "title":"Name of religious place",
+      "description":"A beautiful idol of Lord Ganesha during a procession for Ganesh Chaturthi in Mumbai, India",
+      "btn_text":"15 plans"
+    }
+  ],
+
+  "stepDetails":[
+        {
+            "step_title": "group type",
+            "step_number":1,
+            "isCurrentStep": true,
+            "completed":false
+        },
+        {
+            "step_title": "travel dates",
+            "step_number":2,
+            "isCurrentStep": false,
+            "completed":false
+        },
+        {
+            "step_title": "traveller info",
+            "step_number":3,
+            "isCurrentStep": false,
+            "completed":false
+        },
+        {
+            "step_title": "trip details",
+            "step_number":4,
+            "isCurrentStep": false,
+            "completed":false
+        },
+        {
+            "step_title": "connect with travel expert",
+            "step_number":5,
+            "isCurrentStep": false,
+            "completed":false
+        }
+    ],
+    "group_type":[
+        {
+            "title":"single",
+            "id":1
+        },
+        {
+            "title":"couple",
+            "id":2
+        },
+        {
+            "title":"family",
+            "id":3
+        },
+        {
+            "title":"group",
+            "id":4
+        } 
+    ],
+    "travel_dates":[
+        {
+            "id":1,
+            "title":"I have my exact dates"
+        },
+        {
+            "id":2,
+            "title":"I have my approx. dates"
+        },
+        {
+            "id":3,
+            "title":"I will decide later"
+        }
+    ],
+    "traveller_info":[
+        {
+            "id":1,
+            "tripPlanIndex":2,
+            "name":"geo-area",
+            "question":"Geographical Area",
+            "options":[
+                "Select country",
+                "Nepal",
+                "India",
+                "US"
+            ],
+            "explanations":[]
+        },
+        {
+            "id":2,
+            "tripPlanIndex":3,
+            "name":"age",
+            "question":"Primary age group of adults?",
+            "options":[
+                "18-35 yrs",
+                "36-50 yrs",
+                "51-64 yrs",
+                "65+ yrs"
+            ],
+            "explanations":[]
+        },
+        {
+            "id":3,
+            "tripPlanIndex":4,
+            "name":"tour-type",
+            "question":"What type of tour are you looking for?",
+            "options":[
+                "Custom-made trip with guide and/or driver",
+                "Custom-made trip without guide and driver",
+                "Group Tour",
+                "Cruise Tour"
+            ],
+            "explanations":[
+                "You'll be on your own schedule and have a guide and/or driver accompany you. Some activities or day tours may be shared.",
+                "You don't need a driver or guide but would like help with itinerary and booking of accommodations etc.",
+                "Join a multiday, guided group tour with fixed departures.",
+                "We'll help you zoom in on the ideal cruise near your chosen country, if available."
+            ]
+        },
+        {
+            "id":4,
+            "tripPlanIndex":5,
+            "name":"accomodation",
+            "question":"What accommodation options are you looking for?",
+            "options":[
+                "Basic",
+                "Comfortable",
+                "Luxury",
+                "Quirky"
+            ],
+            "explanations":[
+                "Equivalent of 2* hotels.",
+                "Equivalent of 3* hotels. We'll seek to provide comfortable but not luxury accommodations.",
+                "Equivalent of 4* hotels and above. We'll provide the best luxury accommodations available through-out your tour.",
+                "Something completely different."
+            ]
+        }
+    ],
+    "trip_details":[
+        {
+            "id":1,
+            "name":"budget",
+            "question":"Enter your approx. budget per person",
+            "options":[]
+        },
+        {
+            "id":2,
+            "tripPlanIndex":6,
+            "name":"flexible-budget",
+            "question":"Is your budget flexible?",
+            "options":[
+                "Select one of the options",
+                "No, this is my maximum budget",
+                "Flexible, I can increase upto 20%, if needed",
+                "Very flexible, plan me the best trip possible"
+            ]
+        },
+        {
+            "id":3,
+            "tripPlanIndex":7,
+            "name":"plan-stage",
+            "question":"What trip planning stage are you at? ",
+            "options":[
+                "I need more information before I can start trip planning",
+                "I'm ready to start trip planning",
+                "I've done my homework and almost ready to book"
+            ]
+        }
+    ],
+
+  "footer":[
+    {
+      "head":"Company",
+      "array":[
+        "Home",
+        "About us",
+        "privacy policy",
+        "terms of use"
+      ]
+    },
+    {
+      "head":"Support",
+      "array":[
+        "Contact",
+        "Legal Notice",
+        "Sitemap"
+      ]
+    },
+    {
+      "head":"Popular sites",
+      "array":[
+        "Pashupatinath Temple",
+        "Muktinath",
+        "Manakamana Cable car"
+      ]
+    },
+    {
+      "head":"Treks in nepal",
+      "array":[
+        "Gharepani Poonhill",
+        "Annapurna Base Camp Trek",
+        "Everest Base Camp Trek",
+        "Lantang Valley Trek"
+      ]
+    }
+  ],
+  "explore_section":[
+    {
+      "id":1,
+      "place_name":"Glimpse of Europe",
+      "img_url":"https://images.unsplash.com/photo-1677363960355-cdaf8dce35d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Private Vehicle , Coach & Boat",
+        "5-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":2,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1677363418400-6f631b185e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":1,
+      "place_name":"Glimpse of Europe",
+      "img_url":"https://images.unsplash.com/photo-1677363960355-cdaf8dce35d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Private Vehicle , Coach & Boat",
+        "5-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":2,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1677363418400-6f631b185e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":4.4,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":3,
+      "place_name":"Glimpse of Europe",
+      "img_url":"https://images.unsplash.com/photo-1676490081752-2cd8404a8609?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1309&q=80",
+      "rating":3.6,
+      "price":1235,
+      "days":8,
+      "tagline":"“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Private Vehicle , Coach & Boat",
+        "5-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":4,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1677363418400-6f631b185e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":5,
+      "place_name":"Glimpse of Europe",
+      "img_url":"https://images.unsplash.com/photo-1677363960355-cdaf8dce35d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Private Vehicle , Coach & Boat",
+        "5-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":6,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1676490081752-2cd8404a8609?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1309&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":7,
+      "place_name":"Glimpse of Europe",
+      "img_url":"https://images.unsplash.com/photo-1677363960355-cdaf8dce35d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Private Vehicle , Coach & Boat",
+        "5-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":8,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1677363418400-6f631b185e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    },
+    {
+      "id":9,
+      "place_name":"Sailing Greece - Athens to Mykonos",
+      "img_url":"https://images.unsplash.com/photo-1676490081752-2cd8404a8609?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1309&q=80",
+      "rating":5,
+      "price":1235,
+      "days":8,
+      "tagline":"8 day sailing, yachting and motor boating tour in Greece, visiting Athens, Syros and Kea.",
+      "array1":[
+        "Tour Type",
+        "Activities",
+        "Accomodation",
+        "Transport",
+        "Age Range",
+        "Operated in"
+      ],
+      "array2":[
+        "Small Group Tour",
+        "“Excellent Tour Director and Excellent Driver. Very knowlegable tour director and very experienced”",
+        "Hotel",
+        "Yacht, Boat, Private Vehicle & Taxi",
+        "12-99 yrs",
+        "English, Nepali"
+
+      ]
+
+    }
+  ],
+  "availability":[
+    {
+      "month":"Jul 12th",
+      "year":"2023"
+    },
+    {
+      "month":"Aug 30th",
+      "year":"2023"
+    },
+    {
+      "month":"Sep 1st",
+      "year":"2023"
+    },
+    {
+      "month":"Aug 20th",
+      "year":"2023"
+    },
+    {
+      "month":"Dec 21st",
+      "year":"2023"
+    },
+    {
+      "month":"Dec",
+      "year":"2023"
+    }
+  ]
+}
